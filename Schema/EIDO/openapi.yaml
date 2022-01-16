@@ -358,6 +358,12 @@ components:
               description:
                 Reference to a call back data component. Identifies how the person 
                 described in this data component can be called back.
+            '@context':
+              type: string
+              description: JSON-LD context
+              enum:
+                - '../JSON-LD_Contexts/PersonInformationType.jsonld'
+
     DispositionType:
       title: Disposition Type
       description:
@@ -436,6 +442,12 @@ components:
                 alphanumeric text further describing the vehicle.
               items:
                 $ref: '#/components/schemas/ReferenceType'
+            '@context':
+              type: string
+              description: JSON-LD context
+              enum:
+                - '../JSON-LD_Contexts/VehicleInformationType.jsonld'
+
     IncidentInformationType:
       title: Incident Information Type
       description:
