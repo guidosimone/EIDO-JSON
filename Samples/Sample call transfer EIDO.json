@@ -156,7 +156,5 @@
 			"$ref": "123e4567-e89b-1234-a456-426614174000"
 		}
 	}],
-	"@context": {
-		"@vocab": "./JSON-LD_Contexts/EmergencyIncidentDataObjectType.jsonld"
-	}
+	"@context": "../JSON-LD_Contexts/EmergencyIncidentDataObjectType.jsonld"
 }

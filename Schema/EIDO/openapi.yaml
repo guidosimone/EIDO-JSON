@@ -960,10 +960,7 @@ components:
               items:
                 $ref: '#/components/schemas/EmergencyResourceType'
             '@context':
-              type: object
+              type: string
               description: JSON-LD context
-              properties:
-                '@vocab': 
-                  type: string
-                  enum:
-                    - './JSON-LD_Contexts/EmergencyIncidentDataObjectType.jsonld'
+              enum:
+                - '../JSON-LD_Contexts/EmergencyIncidentDataObjectType.jsonld'
