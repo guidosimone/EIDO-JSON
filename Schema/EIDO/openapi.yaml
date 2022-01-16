@@ -321,7 +321,7 @@ components:
             - personIncidentRoleRegistryText
           properties:
             ncPersonComponent:
-              $ref: 'NIEMComponents/nc.yaml#/components/schemas/ncPersonType'
+              $ref: '../NIEMComponents/nc.yaml#/components/schemas/ncPersonType'
             personIncidentRoleRegistryText:
               type: array
               description: Shall only contains values present in the Person Role registry
@@ -400,7 +400,7 @@ components:
             - vehicleRelationshipTimeStamp
           properties:
             ncVehicleComponent:
-              $ref: 'NIEMComponents//nc.yaml#/components/schemas/ncVehicleType'
+              $ref: '../NIEMComponents//nc.yaml#/components/schemas/ncVehicleType'
             vehicleRelationshipType:
               type: array
               description:
